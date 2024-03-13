@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/triviawars/CSS/loginstyles.css">
+  <title>Login Page</title>
+</head>
+
+<body>
+
+  <p id="loginpara">LOGIN FORM</p>
+  <form id="loginform">
+
+    <div class="user_login">
+      <input type="text" placeholder="Username" id="username_identifier" required>
+      <input type="email" placeholder="Email" id="useremail_identifier" required>
+      <button id="loginbtn" type="submit">Login</button>
+
+    </div>
+
+  </form>
+  <div class="mydiv">
+    <p>Not registered yet?</p><br>
+    <a href="signup.html"><button id="signupbtn">Sign Up</button></a>
+  </div>
+  <p id="loginError" class="error"></p> <!-- Display login error here -->
+
+  <script src="/triviawars/SCRIPTS/login.js"></script>
+</body>
+
+</html>

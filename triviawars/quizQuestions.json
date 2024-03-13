@@ -1,0 +1,79 @@
+[
+  {
+     "questionNumber": 1,
+     "question": "What is the capital of France?",
+     "options": ["London", "Paris", "Berlin", "Rome"],
+     "correctAnswer": "Paris",
+     "hint": "This city is often called 'The City of Light' and is famous for its iconic Eiffel Tower."
+  },
+  {
+     "questionNumber": 2,
+     "question": "Which planet is known as the Red Planet?",
+     "options": ["Mars", "Venus", "Jupiter", "Saturn"],
+     "correctAnswer": "Mars",
+     "hint": "It is named after the Roman god of war due to its reddish appearance."
+  },
+  {
+     "questionNumber": 3,
+     "question": "What is the largest ocean in the world?",
+     "options": ["Atlantic Ocean", "Pacific Ocean", "Indian Ocean", "Arctic Ocean"],
+     "correctAnswer": "Pacific Ocean",
+     "hint": "This ocean spans from the Arctic to the Antarctic and covers more area than all the landmasses combined."
+  },
+  {
+     "questionNumber": 4,
+     "question": "Which country is known as the Land of the Rising Sun?",
+     "options": ["Japan", "China", "South Korea", "Taiwan"],
+     "correctAnswer": "Japan",
+     "hint": "Its name in Japanese is 'Nihon' or 'Nippon', meaning 'origin of the sun'."
+  },
+  {
+     "questionNumber": 5,
+     "question": "What is the chemical symbol for the element oxygen?",
+     "options": ["O", "O2", "O3", "O4"],
+     "correctAnswer": "O",
+     "hint": "Its name originates from Greek words meaning 'acid-former' due to its role in forming acids."
+  },
+  {
+     "questionNumber": 6,
+     "question": "Which planet is known as the Blue Planet?",
+     "options": ["Earth", "Mars", "Venus", "Jupiter"],
+     "correctAnswer": "Earth",
+     "hint": "This planet's surface is covered by approximately 71% water, giving it a blue appearance from space."
+  },
+  {
+     "questionNumber": 7,
+     "question": "What is the smallest planet in our solar system?",
+     "options": ["Mercury", "Venus", "Mars", "Pluto"],
+     "correctAnswer": "Mercury",
+     "hint": "Named after the Roman messenger god, it is the closest planet to the Sun."
+  },
+  {
+     "questionNumber": 8,
+     "question": "Which country is known as the Land of the Free?",
+     "options": ["Canada", "United States", "Australia", "New Zealand"],
+     "correctAnswer": "United States",
+     "hint": "Its national anthem includes the line 'Land of the free and the home of the brave'."
+  },
+  {
+     "questionNumber": 9,
+     "question": "What is the chemical symbol for the element hydrogen?",
+     "options": ["H", "H2", "H3", "H4"],
+     "correctAnswer": "H",
+     "hint": "It is the lightest and most abundant element in the universe, making up about 75% of its elemental mass."
+  },
+  {
+     "questionNumber": 10,
+     "question": "Which country is known as the Land Down Under?",
+     "options": ["Australia", "New Zealand", "South Africa", "Argentina"],
+     "correctAnswer": "Australia",
+     "hint": "It is located in the southern hemisphere and has unique wildlife such as kangaroos and koalas."
+  },
+  {
+     "questionNumber": 11,
+     "question": "What is the chemical symbol for the element carbon?",
+     "options": ["C", "C2", "C3", "C4"],
+     "correctAnswer": "C",
+     "hint": "This element is fundamental to life on Earth and is found in all known living organisms."
+  }
+]

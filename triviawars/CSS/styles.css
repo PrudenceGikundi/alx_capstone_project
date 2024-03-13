@@ -1,0 +1,156 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20%;
+  padding: 0;
+  background-color:  blueviolet;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+ }
+ 
+ #quiz-container {
+  background-color: white;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+ }
+ 
+ h1 {
+  text-align: center;
+ }
+ 
+ #question-container {
+  border: 1px solid #ccc;
+  padding: 20px;
+  font-size: 15px;
+ 
+ }
+ #question-text{
+  font-weight: bolder;
+ }
+
+ 
+ #options-list {
+  list-style-type: none; /* Removes the default bullet points */
+  padding: 10px; 
+  margin-left: 150px; 
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  max-width: 200px;
+ 
+ }
+ 
+ #options-list label {
+  display: block; /* Makes each option appear on a new line */
+  margin-bottom: 10px; /* Adds some space between each option */
+ }
+#timer-display{
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+ .correct-answer {
+  background-color: green;
+  color: white;
+ }
+ 
+ .incorrect-answer {
+  background-color: red;
+  color: white;
+ }
+ /* CSS styles for buttons */
+button {
+  background-color: blueviolet;
+  padding: 9px;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer; 
+  transition: opacity 0.3s ease; 
+}
+
+button:hover {
+  opacity: 0.5; 
+}
+
+button:hover::after {
+  background-color: transparent; /* No background color after hover */
+  color: transparent; /* No text color after hover */
+}
+
+ #submit-button{
+  margin-left: 400px;
+ }
+ #next-button{
+  margin-left: 60%;
+ }
+ .hidden {
+  display: none;
+ }
+ #restartbtn {
+  margin-left:170px ;
+ }
+#leaderboard{
+  color: white;
+}
+#ourleaderboard{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#leaderboard-list {
+  list-style-type: none;
+  padding-left: 0; 
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 40px;
+}
+/* Use a media query to add a breakpoint at 800px: */
+@media screen and (max-width: 800px) {
+  #quiz-container {
+    min-width: 40rem;
+    width: 60% ; 
+    height: 50vh;
+  }
+  #submit-button{
+    
+    width:20%;
+    height: 10vh;
+  }
+}
+@media screen and (max-width: 600px) {
+  #quiz-container {
+   
+    width: 60% ; 
+    height: 50vh;
+  }
+  #submit-button{
+    
+    width:20%;
+    height: 10vh;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  #quiz-container {
+  
+    width: 60% ; 
+    height: 50vh;
+    font-size: 8px;
+  }
+  #submit-button{
+  
+    width:20%;
+    height: 10vh;
+
+  }
+  #leaderboard-list {
+   
+    font-size: 30px;
+  }
+}

@@ -1,0 +1,57 @@
+body{
+  color: white;
+  background-color: blueviolet;
+  margin-top: 150px;
+}
+button{
+  padding: 4px;
+  border-radius: 7px;
+  margin-top: 8px;
+}
+
+.mydiv{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.user_login{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 200px;
+  size: 20px;
+ 
+}
+form{
+  display: flex;
+  justify-content: center;
+  
+}
+
+#loginpara{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+}
+#username_identifier{
+font-size: 20px;
+margin-bottom: 10px;
+}
+#useremail_identifier{
+  font-size: 20px;
+  }
+
+#signupSuccess{
+  color: orange;
+  font-size: larger;
+}
+
+#login-button{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+  
+}
