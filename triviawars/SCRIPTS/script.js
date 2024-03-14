@@ -103,7 +103,7 @@ fetch('/triviawars/quizQuestions.json')
       } else {
         // Prompt the user to select an option before submitting
         message.textContent = 'Please select an option before submitting.';
-        message.style.color = 'red'; // Optionally, change the message color to red for emphasis
+        message.style.color = 'red'; //change the message color to red for emphasis
       }
     });
 
@@ -178,6 +178,7 @@ document.getElementById('signup-form').addEventListener('submit', function(event
 function redirectToLogin() {
   window.location.href = 'login.html';
 }
+// Function to redirect to the home page
 function redirectToHomepage(){
   window.location.href = 'index.html';
 }

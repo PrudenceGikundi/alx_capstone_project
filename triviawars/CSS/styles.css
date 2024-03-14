@@ -62,7 +62,7 @@ body {
   background-color: red;
   color: white;
  }
- /* CSS styles for buttons */
+ /* buttons */
 button {
   background-color: blueviolet;
   padding: 9px;
@@ -82,7 +82,7 @@ button:hover::after {
 }
 
  #submit-button{
-  margin-left: 400px;
+  margin-left: 60%;
  }
  #next-button{
   margin-left: 60%;
@@ -145,7 +145,7 @@ button:hover::after {
   }
   #submit-button{
   
-    width:20%;
+    width:10%;
     height: 10vh;
 
   }

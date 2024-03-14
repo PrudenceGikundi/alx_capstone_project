@@ -45,12 +45,13 @@ storage: using javascript local storage technology to get the user credentials(u
 
 
 **Screenshots or Demo:**
-Include screenshots or a link to a live demo if available. Visual representations can help readers understand the project’s appearance and functionality.
+LINK TO PRESENTATION: https://docs.google.com/presentation/d/1b9e16f46GGbeBKmHH3G1eve4Fquse1ctm94xqOKJwfg/edit#slide=id.g2c2be766c64_0_13
+
 
 
 **Roadmap and future enhancements:**
 In future I wish to use database as the mode of storage. It will be easier to track users progress using the same.
-There will also be a multiple player option, different levels of hardness as well as different topics to choose from.
+There will also be a multiple player option, different levels of difficulty as well as different topics to choose from.
 in this case i will use API technology as well to fetch the questions
 user will also be able to create a profile.
 
