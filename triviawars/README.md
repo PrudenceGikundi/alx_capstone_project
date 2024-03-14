@@ -46,7 +46,7 @@ storage: using javascript local storage technology to get the user credentials(u
 
 **Screenshots or Demo:**
 LINK TO PRESENTATION: https://docs.google.com/presentation/d/1b9e16f46GGbeBKmHH3G1eve4Fquse1ctm94xqOKJwfg/edit#slide=id.g2c2be766c64_0_13
-
+link to video:  https://docs.google.com/presentation/d/1b9e16f46GGbeBKmHH3G1eve4Fquse1ctm94xqOKJwfg/edit#slide=id.g2c2be766c64_0_18
 
 
 **Roadmap and future enhancements:**
@@ -61,4 +61,4 @@ user will also be able to create a profile.
 Prudence Kendi,
 +254799794404
 prudencekendi111@gmail.com
-links to personal portfolios or social media profiles.
+linkedin: https://www.linkedin.com/in/prudence-kendi-590725296/
