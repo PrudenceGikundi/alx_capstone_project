@@ -52,6 +52,10 @@ body {
   justify-content: flex-end;
 
 }
+.selected-option{
+  background-color: red;
+  color:white;
+}
 
  .correct-answer {
   background-color: green;
@@ -110,6 +114,7 @@ button:hover::after {
   color: white;
   font-size: 40px;
 }
+
 /* Use a media query to add a breakpoint at 800px: */
 @media screen and (max-width: 800px) {
   #quiz-container {

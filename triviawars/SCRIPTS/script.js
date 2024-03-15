@@ -1,9 +1,9 @@
-// Define questions, score, and optionsList outside of the fetch callback
+//quizgame functionality
 let questions = [];
 let currentQuestionIndex = 0;
 let score = 0;
-let selectedOption = null; // Move selectedOption outside of displayQuestion
-let optionsList; // Define optionsList here
+let selectedOption = null; 
+let optionsList; // Define optionsList 
 let timer; // Define timer variable
 let countdownInterval; // Define countdown interval variable
 
@@ -15,7 +15,7 @@ fetch('/triviawars/quizQuestions.json')
 
     function displayQuestion() {
       const questionText = document.getElementById('question-text');
-      optionsList = document.getElementById('options-list'); // Assign optionsList here
+      optionsList = document.getElementById('options-list'); 
       const message = document.getElementById('message');
       const submitButton = document.getElementById('submit-button');
       const nextButton = document.getElementById('next-button');
@@ -46,7 +46,7 @@ fetch('/triviawars/quizQuestions.json')
           clearInterval(countdownInterval);
           // Timer elapsed, automatically select the correct answer
           selectedOption = questions[currentQuestionIndex].correctAnswer;
-          message.textContent = `Time's up! The correct answer is: ${selectedOption}`;
+          // message.textContent = `Time's up! The correct answer is: ${selectedOption}`;
           // Proceed to the next question
           nextButton.click();
         }

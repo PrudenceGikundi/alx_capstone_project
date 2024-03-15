@@ -79,3 +79,12 @@ margin-bottom: 10px;
   background-color:  grey;
   color: white;
 }
+#signupSuccess{
+  display: flex;
+  justify-content: center;
+}
+#loginError{
+  display: flex;
+  justify-content: center;
+  color: orange;
+}
